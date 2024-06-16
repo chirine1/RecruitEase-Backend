@@ -1,0 +1,2 @@
+create a migration: python -m alembic revision --autogenerate -m "defined tables"
+apply the migration: python -m alembic upgrade head

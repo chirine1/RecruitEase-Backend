@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = {extras= ["standard"], version = "*"}
+fastapi = "*"
+pydantic-settings = "*"
+SQLAlchemy = "*"
+email-validator = "*"
+passlib =  "*"
+fastapi-mail = "*"
+Jinja2 = "*"
+PyJWT = "*"
+python-multipart = "*"
+openai = "*"
+asyncpg = "*"
+python-decouple-typed = "*"
+aiofiles = "*"
+pydantic = {extras = ["email"], version = "*"}
+python-jose = {extras = ["cryptography"], version = "*"}
+types-aiofiles = "*"
+psycopg2-binary = "*"
+loguru = "*"
+sqlmodel = "*"
+alembic = "*"
+bcrypt = "==4.0.1"
+stripe = "*"
+pandas = "*"
+joblib = "*"
+scikit-learn = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+pylint = "*"
+pytest = "*"
+pytest-asyncio = "*"
+
+[requires]
+python_version = "3.12"
